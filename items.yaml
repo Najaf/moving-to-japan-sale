@@ -7,3 +7,14 @@
   type: Electronics
   price: 40
   status: Available from beginning of July
+- id: "2"
+  name: "42 inch LG TV"
+  description: "A TV made by LG that is 42 inches in length diagonally. Remote not included"
+  model: 42LD450
+  images:
+    - lg-tv-1.jpg
+    - lg-tv-2.jpg
+  type: Electronics
+  price: 45
+  status: Available now
+
