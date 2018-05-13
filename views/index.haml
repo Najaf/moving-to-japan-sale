@@ -1,29 +1,21 @@
-%html
-  %head
-    %link{rel: "stylesheet", href:"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", integrity: "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm", crossorigin:"anonymous"}
+%h1 Moving to Japan Sale
 
-  %body
-    .container
-      .row
-        .col12
-          %h1 Moving to Japan Sale
+%p
+  This is a list of things we're selling while moving to Japan. If you're interested in buying anything listed here, please get in touch at ali.najaf@gmail.com
 
-          %p
-            This is a list of things we're selling while moving to Japan. If you're interested in buying anything listed here, please get in touch at ali.najaf@gmail.com
-
-          %table.table
-            %thead
-              %tr
-                %th Name
-                %th Type
-                %th Model number
-                %th Price
-                %th Status
-            %tbody
-              -items.each do |item|
-                %tr
-                  %td=item.name
-                  %td=item.type
-                  %td=item.model
-                  %td=item.price
-                  %td=item.status
+%table.table
+  %thead
+    %tr
+      %th Name
+      %th Type
+      %th Model number
+      %th Price
+      %th Status
+  %tbody
+    -items.each do |item|
+      %tr
+        %td=item.name
+        %td=item.type
+        %td=item.model
+        %td=item.price
+        %td=item.status
