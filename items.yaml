@@ -17,4 +17,14 @@
   type: Electronics
   price: 45
   status: Available now
-
+- id: "3"
+  name: "Ikea Sundvik kids bed with mattress"
+  description: "Extendable kids bed with mattress"
+  images:
+    - kids-bed-4.png
+    - kids-bed-1.jpg
+    - kids-bed-2.jpg
+    - kids-bed-3.jpg
+  type: Furniture
+  price: 100
+  status: Available now
