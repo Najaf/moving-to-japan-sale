@@ -18,6 +18,15 @@
   price: 45
   status: Available now
 - id: "3"
+  name: "Dell UltraSharp 29 UltraWide Monitor"
+  description: Dell widescreen computer display
+  model: U2913WMT
+  images:
+    - display-1.jpg
+  type: 'Electronics'
+  price: 70
+  status: Available now
+- id: "4"
   name: "Ikea Sundvik kids bed with mattress"
   description: "Extendable kids bed with mattress"
   images:
