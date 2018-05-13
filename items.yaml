@@ -1,6 +1,6 @@
 - id: "1"
   name: "42 inch Panasonic TV"
-  description: "A TV made by Panasonic that is 42 inches in length"
+  description: "A TV made by Panasonic that is 42 inches in length diagonally. Remote included."
   model: TH-42PX80B
   images:
     - panasonic-tv-1.jpg

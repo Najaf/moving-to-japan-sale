@@ -1,10 +1,14 @@
+%h1 Moving to Japan Sale
 %p
-  This is a list of things we're selling while moving to Japan. If you're interested in buying anything listed here, please get in touch at ali.najaf@gmail.com
+  This is a list of things we're selling while moving to Japan.
+%p
+  All items to be collected in Barnet (EN5), North London.
+  If you're interested in buying anything listed here, please get in touch at ali.najaf@gmail.com
 
 %table.table
   %thead
     %tr
-      %th Name
+      %th Thing
       %th Type
       %th Model number
       %th Price
@@ -12,8 +16,9 @@
   %tbody
     -items.each do |item|
       %tr
-        %td=item.name
+        %td
+          %a{href: '/item/' + item.id}=item.name
         %td=item.type
         %td=item.model
-        %td=item.price
+        %td='£' + item.price.to_s
         %td=item.status
