@@ -9,9 +9,15 @@ def items
 end
 
 def item_with_id(id)
-  items.select { |item| item.id == id }
+  items.select { |item| item.id == id }.first
 end
 
 get '/' do
   haml :index
 end
+
+get '/item/:id' do
+  @item = item_with_id(params[:id])
+  haml :item
+end
+
