@@ -10,3 +10,20 @@
 
           %p
             This is a list of things we're selling while moving to Japan. If you're interested in buying anything listed here, please get in touch at ali.najaf@gmail.com
+
+          %table.table
+            %thead
+              %tr
+                %th Name
+                %th Type
+                %th Model number
+                %th Price
+                %th Status
+            %tbody
+              -items.each do |item|
+                %tr
+                  %td=item.name
+                  %td=item.type
+                  %td=item.model
+                  %td=item.price
+                  %td=item.status

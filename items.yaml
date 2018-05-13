@@ -1,0 +1,10 @@
+- id: "1"
+  name: "42 inch Panasonic TV"
+  description: "A TV made by Panasonic that is 42 inches in length"
+  model: TH-42PX80B
+  images:
+    - panasonic-tv-1.png
+    - panasonic-tv-2.png
+  type: Electronics
+  price: 40
+  status: Available
