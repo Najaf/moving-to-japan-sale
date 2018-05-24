@@ -37,3 +37,12 @@
   type: Furniture
   price: 100
   status: Available now
+- id: "5"
+  name: "Ben and Holly Rocket Toy"
+  description: "A rocket-shaped toy from the Ben and Holly franchise"
+  model: ""
+  images:
+    - ben-and-holly.jpg
+  type: "Toys"
+  price: 5
+  status: Available now
