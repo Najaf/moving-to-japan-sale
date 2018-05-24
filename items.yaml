@@ -55,4 +55,12 @@
   type: "Toys"
   price: 5
   status: Available now
-
+- id: "7"
+  name: "Brio Train Set"
+  description: "Assorted brio trains, tracks, and items"
+  model: ""
+  images:
+    - train-set.jpg
+  type: "Toys"
+  price: 70
+  status: Available now
