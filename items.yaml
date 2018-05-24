@@ -46,3 +46,13 @@
   type: "Toys"
   price: 5
   status: Available now
+- id: "6"
+  name: "Fisher-Price Blaze Transforming Blaze Jet Activity Toy"
+  description: "A blaze toy truck with wings"
+  model: ""
+  images:
+    - blaze.jpg
+  type: "Toys"
+  price: 5
+  status: Available now
+
