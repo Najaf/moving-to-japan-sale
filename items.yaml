@@ -127,3 +127,12 @@
   price: 2
   type: Appliance
   status: Available now
+- id: "16"
+  name: "Wall clock"
+  description: "A battery operated clock that needs to be set manually. Add batteries, put it on a wall, set the time, then look at it when you need to check the time"
+  model: ""
+  images:
+    - clock.jpg
+  price: 5
+  type: Appliance
+  status: Available now
