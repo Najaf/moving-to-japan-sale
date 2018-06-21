@@ -73,4 +73,12 @@
   price: 10
   type: Appliance
   status: Available now
-
+- id: "10"
+  name: "Blu-ray/DVD Player"
+  description: "A combination Bly-ray DVD player"
+  model: "BDP-S350"
+  images:
+    - bluray-player.jpg
+  price: 20
+  type: Electronics
+  status: Available now
