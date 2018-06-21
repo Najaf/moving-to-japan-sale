@@ -64,3 +64,13 @@
   price: 100
   status: Available now
   type: Furniture
+- id: "9"
+  name: "Sage Heston Blumental Juicer"
+  description: "A juicer in a box with Heston Blumenthals face on it. Juices vegetables and fruits"
+  model: ""
+  images:
+    - juicer.jpg
+  price: 10
+  type: Appliance
+  status: Available now
+
