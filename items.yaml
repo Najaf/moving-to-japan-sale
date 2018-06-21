@@ -100,3 +100,12 @@
   price: 100
   type: Furniture
   status: Available now
+- id: "13"
+  name: "Eletric heater"
+  description: "Electric heater for keeping you warm in the winter"
+  model: ""
+  images:
+    - heater.jpg
+  price: 5
+  type: Appliance
+  status: Available now
