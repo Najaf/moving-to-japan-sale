@@ -82,3 +82,12 @@
   price: 20
   type: Electronics
   status: Available now
+- id: "11"
+  name: "Faux-leather bean bag"
+  description: "A very comfy faux leather bean bag, very good for playing video games on"
+  model: ""
+  images:
+    - bean-bag.jpg
+  price: 30
+  type: Furniture
+  status: Available now
