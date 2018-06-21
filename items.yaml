@@ -91,3 +91,12 @@
   price: 30
   type: Furniture
   status: Available now
+- id: "12"
+  name: "Comfy leather sofa set"
+  description: "Very comfortable leather sofa set. Includes a two-seater, a single seater, and footstool with storage compartment"
+  model: ""
+  images:
+    - sofa-set.jpg
+  price: 100
+  type: Furniture
+  status: Available now
