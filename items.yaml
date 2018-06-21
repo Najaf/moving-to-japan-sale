@@ -109,3 +109,21 @@
   price: 5
   type: Appliance
   status: Available now
+- id: "14"
+  name: "Lamp 1"
+  description: "An electric floor/table lamp, for making rooms brighter"
+  model: ""
+  images:
+    - lamp1.jpg
+  price: 3
+  type: Appliance
+  status: Available now
+- id: "15"
+  name: "Lamp 2"
+  description: "Another electric floor/table lamp, also for making rooms brighter"
+  model: ""
+  images:
+    - lamp2.jpg
+  price: 2
+  type: Appliance
+  status: Available now
