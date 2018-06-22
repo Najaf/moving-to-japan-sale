@@ -136,3 +136,13 @@
   price: 5
   type: Appliance
   status: Available now
+- id: "17"
+  name: "Bedside tables x 2"
+  description: "Set of two bedside tables, tables that sit to the side of your bed. Available from argos <a href='http://www.argos.co.uk/product/5329717'>here</a>."
+  model: ""
+  images:
+    - bedside1.jpg
+    - bedside2.jpg
+  price: 10
+  type: Furniture
+  status: Available now
