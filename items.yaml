@@ -146,3 +146,12 @@
   price: 10
   type: Furniture
   status: Available now
+- id: "18"
+  name: "Storage with boxes"
+  description: "Storage unit from IKEA, including four boxes"
+  model: ""
+  images:
+    - storage.jpg
+  price: 25
+  type: Furniture
+  status: Available now
