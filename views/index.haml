@@ -14,7 +14,7 @@
         %img.card-img-top{src: '/images/' + item.images.first, style: 'height: 200px; object-fit: cover;' }
         .card-body
           %p
-            %a.btn.btn-primary{href: '/item/' + item.id} More info
+            %a.btn.btn-success{href: '/item/' + item.id} More info
           %h5.card-title=item.name
           %p{style: 'color: green'}="£#{item.price}"
             

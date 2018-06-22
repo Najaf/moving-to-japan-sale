@@ -164,3 +164,23 @@
   price: 5
   type: Furniture
   status: Available now
+- id: "20"
+  name: "Stokke High Chair 1"
+  description: "Very good condition in Walnut colour. Bought 1.5 years ago for approximately £175"
+  model: ""
+  images:
+    - stokke1-1.jpg
+    - stokke1-2.jpg
+  price: 80
+  type: Furniture
+  status: Available now
+- id: "21"
+  name: "Stokke High Chair 2"
+  description: "Some scratches. Walnut colour. Bought 2.5 years ago for approximately £175"
+  model: ""
+  images:
+    - stokke2-1.jpg
+    - stokke2-2.jpg
+  price: 70
+  type: Furniture
+  status: Available now
