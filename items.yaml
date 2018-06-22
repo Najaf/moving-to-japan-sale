@@ -21,8 +21,8 @@
   name: "Ikea Sundvik kids bed with mattress"
   description: "Extendable kids bed with mattress"
   images:
-    - kids-bed-4.png
     - kids-bed-1.jpg
+    - kids-bed-4.png
     - kids-bed-2.jpg
     - kids-bed-3.jpg
   type: Furniture
@@ -153,5 +153,14 @@
   images:
     - storage.jpg
   price: 25
+  type: Furniture
+  status: Available now
+- id: "19"
+  name: "Chest of drawers"
+  description: "A big chest of drawers, for putting things in"
+  model: ""
+  images:
+    - chest-of-drawers.jpg
+  price: 5
   type: Furniture
   status: Available now

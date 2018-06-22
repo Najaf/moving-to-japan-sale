@@ -1,24 +1,43 @@
-%h1 Moving to Japan Sale
-%p
-  This is a list of things we're selling while moving to Japan.
-%p
-  All items to be collected in Barnet (EN5), North London.
-  If you're interested in buying anything listed here, please get in touch at ali.najaf@gmail.com
+.row
+  .col12
+    %h1 Moving to Japan Sale
+    %p
+      This is a list of things we're selling while moving to Japan.
+    %p
+      All items to be collected in Barnet (EN5), North London.
+      If you're interested in buying anything listed here, please get in touch at ali.najaf@gmail.com
 
-%table.table
-  %thead
-    %tr
-      %th Thing
-      %th Type
-      %th Model number
-      %th Price
-      %th Status
-  %tbody
-    -items.each do |item|
-      %tr
-        %td
-          %a{href: '/item/' + item.id}=item.name
-        %td=item.type
-        %td=item.model
-        %td='£' + item.price.to_s
-        %td=item.status
+.row
+  -items.each do |item|
+    .col
+      .card
+        %img.card-img-top{src: '/images/' + item.images.first, style: 'height: 200px; object-fit: cover;' }
+        .card-body
+          %p
+            %a.btn.btn-primary{href: '/item/' + item.id} More info
+          %h5.card-title=item.name
+          %p{style: 'color: green'}="£#{item.price}"
+            
+      &nbsp;
+
+%hr
+
+.row
+  .col12
+    %table.table
+      %thead
+        %tr
+          %th Thing
+          %th Type
+          %th Model number
+          %th Price
+          %th Status
+      %tbody
+        -items.each do |item|
+          %tr
+            %td
+              %a{href: '/item/' + item.id}=item.name
+            %td=item.type
+            %td=item.model
+            %td='£' + item.price.to_s
+            %td=item.status

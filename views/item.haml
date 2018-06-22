@@ -1,27 +1,28 @@
-%a{href: '/'} Back
+.row
+  .col12
+    %a{href: '/'} Back
+    %h2=@item.name
 
-%h2=@item.name
-
-%strong Accepting offers around:
-='£' + @item.price.to_s
+    %strong Accepting offers around:
+    ='£' + @item.price.to_s
 
 
 
-%br 
-%br
+    %br 
+    %br
 
-%p
-  =@item.description
+    %p
+      =@item.description
 
--if @item.model && @item.model != ''
-  %p
-    %a{href: 'https://www.google.co.uk/search?q=' + @item.model}
-      Model number on google
+    -if @item.model && @item.model != ''
+      %p
+        %a{href: 'https://www.google.co.uk/search?q=' + @item.model}
+          Model number on google
 
-%h3 Images
+    %h3 Images
 
--@item.images.each do |image|
-  %p
-    %img{src: '/images/' + image }
+    -@item.images.each do |image|
+      %p
+        %img{src: '/images/' + image }
 
 
