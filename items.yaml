@@ -166,3 +166,14 @@
   price: 70
   type: Furniture
   status: Available now
+- id: "22"
+  name: "Big Wardrobe"
+  description: "Bought two years ago, in excellent condition. <a href='https://www.ikea.com/gb/en/products/wardrobes/free-standing-wardrobes/brimnes-wardrobe-with-3-doors-white-art-70245853/'>https://www.ikea.com/gb/en/products/wardrobes/free-standing-wardrobes/brimnes-wardrobe-with-3-doors-white-art-70245853/</a>"
+  model:  ""
+  images:
+    - wardrobe1.jpg
+    - wardrobe2.jpg
+    - wardrobe3.jpg
+  price: 30
+  type: Furniture
+  status: Available now
