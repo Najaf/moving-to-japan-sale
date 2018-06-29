@@ -177,3 +177,12 @@
   price: 30
   type: Furniture
   status: Available now
+- id: "23"
+  name: "Tidlo Kids table and chairs"
+  description: "Chairs were £26 each, table cost £54. Currently in used condition with a few scuff marks, so selling table and chairs all together for £30"
+  model: ""
+  images:
+    - table-and-chairs.jpg
+  price: 30
+  type: Furniture
+  status: Available now
