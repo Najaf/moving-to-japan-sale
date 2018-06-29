@@ -48,7 +48,15 @@
   status: Available now
 - id: "8"
   name: "Garden Furniture"
-  description: "Garden furniture bought three years ago from Robert Dyas. Includes a table, four chairs, and a parasol"
+  description: > 
+    <p>Garden furniture bought three years ago from Robert Dyas. Includes a table, four chairs, and a parasol. Bought in September 2015 for a total of £270.</p>
+    <p>Here are some links to each product on the Robery Dyas Website:</p>
+    <ul>
+    <li><a href='https://www.robertdyas.co.uk/robert-dyas-fscr-country-110cm-hardwood-garden-furniture-set'>Robert Dyas FSC Country Hardwood 4-Seater Dining Set</a></li>
+    <li><a href='https://www.robertdyas.co.uk/dark-green-2-7m-large-garden-parasol-metal'>2.7m Large Garden Parasol with Metal Frame - Dark Green</a></li>
+    <li><a href='https://www.robertdyas.co.uk/concrete-black-parasol-base-11kg'>Concrete Black Parasol Base - 11kg</a></li>
+    <li><a href='https://www.robertdyas.co.uk/4-6-seater-round-furniture-set-cover'>4-6 Seater Round Furniture Set Cover</a></li>
+    </ul>
   model: ""
   images:
     - garden-furniture.jpg
