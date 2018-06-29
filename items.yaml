@@ -186,3 +186,21 @@
   price: 30
   type: Furniture
   status: Available now
+- id: "24"
+  name: "Assorted toys"
+  description: "An assortment of toys. £2 each (not total, each)"
+  model: ""
+  images:
+    - assorted-toys-1.jpg
+  price: "2 (each)"
+  type: Toys
+  status: Available now
+- id: "25"
+  name: "More assorted toys"
+  description: "A further assortment of toys. £2 each (not total, each)"
+  model: ""
+  images:
+    - assorted-toys-2.jpg
+  price: "2 (each)"
+  type: Toys
+  status: Available now
